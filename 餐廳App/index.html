@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>現在吃什麼！ - 你的 AI 美食探索助手</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Noto Sans TC', sans-serif; }
+        .app-screenshot {
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            border-radius: 32px;
+            border: 8px solid #fff;
+        }
+        .hero-image {
+            transform: rotate(-3deg);
+            transition: all 0.5s ease;
+        }
+        .hero-image:hover {
+            transform: rotate(0deg) scale(1.02);
+        }
+    </style>
+</head>
+<body class="bg-orange-50/50 text-gray-800">
+
+    <nav class="bg-white/90 backdrop-blur shadow-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="font-bold text-xl text-orange-500 tracking-wider">現在吃什麼！</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#features" class="text-gray-500 hover:text-orange-500 transition font-medium">功能特色</a>
+                    <a href="#preview" class="text-gray-500 hover:text-orange-500 transition font-medium">介面預覽</a>
+                </div>
+                <div>
+                    <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-orange-100 text-orange-800">
+                        Coming Soon
+                    </span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="relative overflow-hidden pt-12 pb-20 lg:pt-20">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-12 lg:gap-16 items-center">
+                <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
+                    <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl mb-6">
+                        <span class="block">還在煩惱</span>
+                        <span class="block text-orange-500">現在吃什麼？</span>
+                    </h1>
+                    <p class="mt-4 text-lg text-gray-600">
+                        我們結合了 <strong>使用者定位</strong> 與 <strong>AI 智慧判斷</strong>。
+                        不管是週末狂歡、下雨天想喝熱湯，還是節日慶祝，
+                        App 都能偵測當下情境，推薦此刻最適合你的餐廳！
+                    </p>
+                    <div class="mt-8 sm:flex sm:justify-center lg:justify-start">
+                        <div class="rounded-md shadow">
+                            <a href="#" class="cursor-default w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-500 hover:bg-orange-600 md:py-4 md:text-lg md:px-10 transition">
+                                Coming Soon
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-16 sm:mt-24 lg:mt-0 lg:col-span-6 relative flex justify-center">
+                    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] bg-yellow-200 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-blob"></div>
+                    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] bg-orange-200 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-blob animation-delay-2000 ml-10"></div>
+                    
+                    <img class="hero-image relative w-64 md:w-72 lg:w-80 h-auto app-screenshot z-10" src="home.png" alt="現在吃什麼 首頁">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="features" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-base text-orange-600 font-semibold tracking-wide uppercase">Why Us</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    比你更懂你的胃
+                </p>
+            </div>
+            <div class="mt-10">
+                <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-10">
+                    <div class="relative">
+                        <dt>
+                            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-orange-500 text-white">
+                                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+                            </div>
+                            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">AI 情境感知</p>
+                        </dt>
+                        <dd class="mt-2 ml-16 text-base text-gray-500">
+                            現在是週末下午茶時間？還是下雨的夜晚？AI 自動判斷天氣與節日，給你最應景的選擇。
+                        </dd>
+                    </div>
+                    <div class="relative">
+                        <dt>
+                            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-orange-500 text-white">
+                                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                            </div>
+                            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">選擇困難救星</p>
+                        </dt>
+                        <dd class="mt-2 ml-16 text-base text-gray-500">
+                            真的選不出來？設定好距離，按一下「抽一抽」，讓命運決定你下一餐吃哪家好料！
+                        </dd>
+                    </div>
+                    <div class="relative">
+                        <dt>
+                            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-orange-500 text-white">
+                                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+                            </div>
+                            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">精準 LBS 定位</p>
+                        </dt>
+                        <dd class="mt-2 ml-16 text-base text-gray-500">
+                            只找你附近的優質餐廳。未來整合訂位與餐券優惠，讓你吃得方便又划算。
+                        </dd>
+                    </div>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <div id="preview" class="bg-gray-50 py-16">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-extrabold text-center text-gray-900 mb-12">App 實際介面</h2>
+            <div class="flex flex-col md:flex-row justify-center items-start space-y-12 md:space-y-0 md:space-x-12">
+                
+                <div class="text-center group">
+                    <div class="relative inline-block transition-transform duration-300 group-hover:-translate-y-2">
+                        <img src="list.PNG" alt="列表與抽籤功能" class="w-64 h-auto app-screenshot mx-auto">
+                    </div>
+                    <h3 class="mt-6 text-xl font-bold text-gray-800">快速探索 & 抽一抽</h3>
+                    <p class="mt-2 text-gray-500 text-sm">設定搜尋範圍，一鍵抽出美食</p>
+                </div>
+
+                <div class="text-center group mt-8 md:mt-0">
+                    <div class="relative inline-block transition-transform duration-300 group-hover:-translate-y-2">
+                        <img src="detail.PNG" alt="詳細餐廳資訊" class="w-64 h-auto app-screenshot mx-auto">
+                    </div>
+                    <h3 class="mt-6 text-xl font-bold text-gray-800">完整店家資訊</h3>
+                    <p class="mt-2 text-gray-500 text-sm">評分、評論與聯絡資訊一目瞭然</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-gray-800 text-white py-10">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <p class="font-bold text-2xl tracking-wider text-orange-500">現在吃什麼！</p>
+            <p class="mt-4 text-gray-400 text-sm">
+                &copy; 2025 未知互動工作室. All rights reserved.<br>
+                Designed for Taiwan Foodies.
+            </p>
+        </div>
+    </footer>
+    <style>
+        @keyframes blob {
+            0% { transform: translate(-50%, -50%) scale(1); }
+            33% { transform: translate(-50%, -50%) scale(1.1) translate(20px, -30px); }
+            66% { transform: translate(-50%, -50%) scale(0.9) translate(-20px, 30px); }
+            100% { transform: translate(-50%, -50%) scale(1); }
+        }
+        .animate-blob { animation: blob 10s infinite; }
+        .animation-delay-2000 { animation-delay: 2s; }
+    </style>
+</body>
+</html>
